@@ -10,12 +10,18 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@radix-ui/react-checkbox": "^1.3.3",
     "@tailwindcss/vite": "^4.1.16",
     "@tanstack/react-router": "^1.133.36",
     "@tanstack/react-router-devtools": "^1.133.36",
     "@tanstack/router": "0.0.1-beta.53",
+    "lucide-react": "^0.552.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
+    "react-resizable-panels": "^3.0.6",
+    "shiki": "^3.14.0",
+    "tailwind-merge": "^3.3.1",
+    "tailwind-variants": "^3.1.1",
     "tailwindcss": "^4.1.16"
   },
   "devDependencies": {
