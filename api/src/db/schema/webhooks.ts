@@ -4,6 +4,8 @@ import { jsonb } from "drizzle-orm/pg-core";
 import { pgTable, text } from "drizzle-orm/pg-core";
 import {uuidv7} from 'uuidv7'
 
+// uuidv7 => time sortable
+
 export const webhooks = pgTable('webhooks', {
   id: text().primaryKey().$defaultFn(() => uuidv7()),
   method: text().notNull(),
