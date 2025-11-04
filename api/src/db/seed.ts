@@ -5,6 +5,8 @@ import { webhooks } from './schema'
 async function seed() {
   console.log('🌱 Seeding database...')
 
+  await db.delete(webhooks)
+
   const stripeEventTypes = [
     'payment_intent.succeeded',
     'payment_intent.created',
